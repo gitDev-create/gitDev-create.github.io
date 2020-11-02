@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial Helvetica sans-serif;
+  font-size: ;
+  background: #26252a;
+  color: #f3f3f3;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+header{
+  background: #06182e;
+  color:#fff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a{
+  color:#fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #ccc;
+  font-weight: bold;
+}
+
+/* SHOWCASE */
+
+#showcase{
+  min-height: 60vh;
+  background: url('../Images/fashion-art-coffee-macbook-pro-57690.jpg');
+  /* opacity: 0.3; */
+  background-size: cover;
+  background-position: center;
+  text-align:center;
+  color: #fff;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+  color: #e8491d;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+hr{
+  color: #e8491d;
+}
+
+/* Personal details */
+
+#personal-details{
+  background: #06182e;
+  padding:20px;
+  padding-bottom: 30px;
+  color: #e8491d;
+}
+
+#personal-details li{
+  color:#fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 0 10px 0 10px;
+  float: left;
+}
+
+#education{
+  padding: 15px;
+}
+
+#education li{
+  padding: 10px;
+  font-size:18px;
+}
+
+#education h1{
+  color: #e8491d;
+}
+
+/* Contact */
+
+#contact-info{
+  text-align: center;
+  background: #06182e;
+  border-top: #e8491d 3px solid;
+  font-size: 20px;
+}
+
+#contact-info li{
+  padding: 10px;
+}
+
+#contact-info .header{
+  color: #e8491d;
+  font-size: 25px;
+}
+
+#form{
+  padding: 15px;
+  color: #fff;
+  background:;l
+  height: 40px;
+}
+
+#form .submit{
+  background: #06182e;
+}
+
+#form h1{
+  float: left;
+}
+
+#form form{
+  float: right;
+}
+
+#form input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.submit-button{
+  height: 38px;
+  background: #e8491d;
+  text-transform: uppercase;
+  border:0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+}
+
+
+
+#footer{
+  min-height: 50px;
+  background: #06182e;
+  text-align: center;
+  font-size:25px;
+  border-top: #e8491d 3px solid;
+  padding-top:25px;
+}
